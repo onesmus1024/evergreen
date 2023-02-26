@@ -7,6 +7,7 @@ import { CategoryComponent } from './category/category.component';
 import { EnticementComponent } from './enticement/enticement.component';
 import { PopularPicksComponent } from './popular-picks/popular-picks.component';
 import { SinglePopularComponent } from './single-popular/single-popular.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 const routes :Routes = [
@@ -27,10 +28,12 @@ const routes :Routes = [
     PopularPicksComponent,
     SinglePopularComponent,
     
+    
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    MatIconModule
   ]
 })
 export class HomeModule { }

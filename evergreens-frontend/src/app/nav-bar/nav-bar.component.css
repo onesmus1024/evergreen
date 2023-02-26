@@ -59,6 +59,18 @@ nav .upper  .cart-person{
     align-items: center;
     justify-content: center;
 }
+nav .upper  .cart-person #number-of-items{
+    background-color: rgb(74, 240, 74);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0 10px;
+}
 
 nav .upper  .cart-person a{
     margin: 0 10px;
