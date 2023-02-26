@@ -25,7 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/custom-theme.scss",
+              "src/styles.css",
+              "/media/onesmus/d42c9065-8792-4148-a205-cc0a748da294/dev/The Jitu/assignment/evergreen/evergreens-frontend/node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },

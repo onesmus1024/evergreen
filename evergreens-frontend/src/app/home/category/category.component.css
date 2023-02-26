@@ -1,0 +1,21 @@
+
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.category-items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.category-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
